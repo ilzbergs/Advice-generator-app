@@ -14,7 +14,7 @@ function showAdvice() {
         .then((data) => data.slip)
         .then((data) => {
            id.innerHTML = data.id;
-            advice.innerHTML = data.advice;
+            advice.innerHTML = ""+data.advice+"";
         })
         .catch((error) => {
             console.log(error);

@@ -29,6 +29,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 1.5rem;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -55,11 +56,14 @@ body {
 }
 
 .advice {
-    margin: 0 1rem;
     font-size: var(--quote-font-size);
-    text-align: center;
     color: var(--light-cyan);
     font-family: var(--font-family);
+    display: inherit;
+}
+
+q {
+    text-align: center;
 }
 
 .divider {
@@ -78,7 +82,7 @@ body {
 
 .dice {
     position: relative;
-    top: 32px;
+    top: 55px;
     background-color: var(--neon-green);
     border-radius: 50%;
     width: 64px;
